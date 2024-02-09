@@ -1434,10 +1434,14 @@ iframe {
 	grid-area: video;
 	border: none;
 	width: 45%;
-	height: auto;
+	height: 330px;
 }
 
 audio {
 	grid-area: audio;
 	width: 45%;
+}
+
+@media only screen and (width: 828px) {
+	height: 210px;
 }
