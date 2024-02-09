@@ -294,8 +294,7 @@ a {
 
 
 /* PHONE*/
-@media only screen 
-    and (width: 414px) {
+@media only screen and (width: 414px) {
 	/*NAV*/
 	#cta {
 		display: none;
