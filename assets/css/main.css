@@ -531,7 +531,7 @@ button {
 }
 
 #index-3 {
-	background-image: url(/assets/images/skor/sko4.jpg);
+	background-image: url(/assets/images/skor/sko6.jpg);
 }
 
 #index-4 {
@@ -823,19 +823,19 @@ table {
 }
 
 #skor-1 {
-	background-image: url(/assets/images/skor/boots.png);
+	background-image: url(/assets/images/skor/sko5.jpg);
 }
 
 #skor-2 {
-	background-image: url(/assets/images/skor/snörskor-4.png);
+	background-image: url(/assets/images/skor/sko3.jpg);
 }
 
 #skor-3 {
-	background-image: url(/assets/images/skor/kängor-3.png);
+	background-image: url(/assets/images/skor/sko7.jpg);
 }
 
 #skor-4 {
-	background-image: url(/assets/images/skor/sandal.png);
+	background-image: url(/assets/images/skor/sko11.jpg);
 }
 
 @media only screen and (width: 828px) {
