@@ -294,7 +294,7 @@ a {
 
 
 /* PHONE*/
-@media only screen and (width: 414px) {
+@media only screen and (width: 828px) {
 	/*NAV*/
 	#cta {
 		display: none;
@@ -701,7 +701,7 @@ table {
 
 
 /*PHONE*/
-@media screen and (max-width: 828px) {
+@media only screen and (width: 828px) {
 	.main-computer-header {
 		height: 1000px;
 		background-size: cover;
@@ -838,7 +838,7 @@ table {
 	background-image: url(/assets/images/skor/sandal.png);
 }
 
-@media screen and (max-width: 828px) {
+@media only screen and (width: 828px) {
 	#shoe-carousel {
 		height: 300px;
 		margin-bottom: 0;
@@ -929,7 +929,7 @@ main h2 {
 	letter-spacing: 2px;
 }
 
-@media screen and (max-width: 828px) {
+@media only screen and (width: 828px) {
 	#phone-title {
 		font-size: 45px;
 	}
@@ -1032,7 +1032,7 @@ main h2 {
 }
 
 
-@media screen and (max-width: 828px) {
+@media only screen and (width: 828px) {
 	#phone-title {
 		font-size: 45px;
 	}
@@ -1236,7 +1236,7 @@ form input {
 }
 
 
-@media screen and (max-width: 828px) {
+@media only screen and (width: 828px) {
 	#phone-subtitle {
 		font-size: 17px;
 		margin-top: 10px;
