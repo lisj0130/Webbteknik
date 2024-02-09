@@ -853,13 +853,13 @@ table {
 		grid-template-columns: 0.4fr 4fr 0.4fr;
 	}
 
-	/*.table tr {
+	.table tr {
 		height: 260px;
 	}
 
 	.table td img {
-		height: 220px;
-	}*/
+		height: 20vh;
+	}
 }
 
 /*------------------------ ALLA H2 ----------------*/
@@ -960,19 +960,6 @@ main h2 {
 	.phone-table {
 		display: none;
 	}
-
-	.table {
-		grid-template-columns: 0.4fr 4fr 0.4fr;
-	}
-
-	.table tr {
-		height: 260px;
-	}
-
-	.table td img {
-		height: 220px;
-	}
-	
 }
 
 /*------------------------- VILLKOR ------------------*/
