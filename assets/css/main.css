@@ -532,7 +532,7 @@ button {
 }
 
 #index-3 {
-	background-image: url(/assets/images/skor/sko6.jpg);
+	background-image: url(/assets/images/skor/sko7.jpg);
 }
 
 #index-4 {
@@ -1441,8 +1441,4 @@ iframe {
 audio {
 	grid-area: audio;
 	width: 45%;
-}
-
-@media only screen and (width: 828px) {
-	height: 210px;
 }
