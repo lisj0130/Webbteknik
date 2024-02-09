@@ -1434,6 +1434,7 @@ iframe {
 	grid-area: video;
 	border: none;
 	width: 45%;
+	height: auto;
 }
 
 audio {
