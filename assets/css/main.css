@@ -459,6 +459,9 @@ a {
 	margin-bottom: 85px;
 }
 
+button {
+	cursor: pointer;
+}
 
 /*--------------ALLA KARUSELLER-------------------*/
 /*Ska göras med hjälp av Javascript och CSS grid men skapade så att man får en uppfattning*/
