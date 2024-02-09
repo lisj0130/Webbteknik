@@ -1432,9 +1432,11 @@ form input {
 
 iframe {
 	grid-area: video;
+	border: none;
+	width: 45%;
 }
 
 audio {
 	grid-area: audio;
-	width: 30%;
+	width: 45%;
 }
