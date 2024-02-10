@@ -1314,15 +1314,20 @@ form input {
 
 	.logo {
 		margin-top: 20px;
+		width: 90%;
 	}
 
 	.main-computer-header {
 		grid-template-columns: 0.2fr 1fr 0.2fr;
 
-		background-image: url(../images/nyheter-311.jpg);
+		background-image: url(/assets/images/nyheter-311.jpg);
 		background-size: cover;
 
 		height: 750px;
+	}
+
+	.main-computer-header h1 {
+		font-size: 5vw;
 	}
 
 	button {
