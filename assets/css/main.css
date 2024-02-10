@@ -1315,6 +1315,7 @@ form input {
 	.logo {
 		margin-top: 20px;
 		width: 90%;
+		height: 90%;
 	}
 
 	.main-computer-header {
@@ -1327,7 +1328,7 @@ form input {
 	}
 
 	.main-computer-header h1 {
-		font-size: 5vw;
+		font-size: 10vw;
 	}
 
 	button {
