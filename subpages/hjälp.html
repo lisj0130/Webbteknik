@@ -9,6 +9,10 @@
 	<meta name="viewport" content="width=828px, initial-scale=1">
         <link rel="stylesheet" href="/assets/css/main.css">
 	<script src="https://kit.fontawesome.com/e1a3da5fea.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script src="/assets/js/randomizer.js"></script>
     </head>
     <body>
 	<div id="cta">
@@ -16,40 +20,70 @@
 	</div>
 	<nav class="computer-nav">
 		<div id="search-bar">
-			<input type="text" placeholder="SÖK..." class="search">
-			<button type="submit" class="search-button">
+			<input type="text" placeholder="SÖK..." class="search" id="onfocus-onblur" onfocus="highlightInput(true)" onblur="highlightInput(false)">
+			<button type="submit" class="search-button" onclick="clearInput()">
 				<i class="fa-solid fa-magnifying-glass"></i>
 			</button>
 		</div>
-		<a href="/index.html" class="logo">
+		<a href="/index-random.html" class="logo">
 			<img src="/assets/images/logo.png" alt="logo" class="logo-img">
 		</a>
 		<div class="logos">
-			<i class="far fa-envelope"></i>
-			<i class="far fa-heart"></i>
-			<i class="fas fa-shopping-cart"></i>
+			<i class="far fa-envelope" id="mail-icon"></i>
+			<i class="far fa-heart id" id="heart-icon"></i>
+			<i class="fas fa-shopping-cart" id="cart-icon"></i>
 		</div>
 		<ul class="menu">
 			<li id="li1">
-				<a href="/index.html">HEM</a>
+				<h6 onmouseover="changeAppearance()">HEM</h6>
 			</li>
 			<li id="li2">
-				<a href="/subpages/skor.html">SKOR</a>
+				<h6>SKOR</h6>
 			</li>
 			<li id="li3">
-				<a href="/subpages/accessoarer.html">ACCESSOARER</a>
+				<h6>ACCESSOARER</h6>
 			</li>
 			<li id="li4">
-				<a href="/subpages/omoss.html">OM OSS</a>
+				<h6>OM OSS</h6>
 			</li>
 			<li id="li5">
-				<a href="/subpages/hjälp.html">KONTAKT</a>
+				<h6 >KONTAKT</h6>
 			</li>
 			<li id="li6">
-				<a href="/subpages/villkor.html">VILLKOR</a>
+				<h6>VILLKOR</h6>
 			</li>
 		</ul>
 	</nav>
+	<ul id="drop-down-menu">
+		<div class="cat-1">
+			<h3>HUVUDKATEGORI</h3>
+			<a href="/subpages/skor.html">SKOR</a>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+		</div>
+		<div class="cat-2">
+			<h3>HUVUDKATEGORI</h3>
+			<a href="/subpages/accessoarer.html">ACCESSOARER</a>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+		</div>
+		<div class="cat-3">
+			<h3>HUVUDKATEGORI</h3>
+			<a href="/subpages/omoss.html">OM OSS</a>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+		</div>
+		<div class="cat-4">
+			<h3>HUVUDKATEGORI</h3>
+			<a href="/subpages/hjälp.html">KONTAKT</a>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+			<a href="/subpages/villkor.html">VILLKOR</a>
+		</div>
+	</ul>
 	<nav class="phone-nav">
 		<i class="fa-solid fa-bars" id="hamburger"></i>
 		<i class="fa-solid fa-cart-shopping" id="cart"></i>
@@ -58,27 +92,22 @@
 		<button type="submit" id="search-logo">
 			<i class="fa-solid fa-magnifying-glass"></i>
 		</button>
-		<ul class="phone-menu">
-			<li>
-				<a href="/index.html">HEM</a>
-			</li>
-			<li>
-				<a href="/subpages/skor.html">SKOR</a>
-			</li>
-			<li>
-				<a href="/subpages/accessoarer.html">ACCESSOARER</a>
-			</li>
-			<li>
-				<a href="/subpages/omoss.html">OM OSS</a>
-			</li>
-			<li>
-				<a href="/subpages/hjälp.html">KONTAKT</a>
-			</li>
-			<li>
-				<a href="/subpages/villkor.html">VILLKOR</a>
-			</li>
-		</ul>
 	</nav>
+	<div class="hamburger-menu">
+		<i class="fa-solid fa-xmark" id="close"></i>
+		<div id="category-container">
+			<div class="category-1">
+				<a href="/index-random.html">HEM</a>
+				<a href="/subpages/skor.html">SKOR</a>
+				<a href="/subpages/accessoarer.html">ACCESSOARER</a>
+			</div>
+			<div class="category-2">
+				<a href="/subpages/omoss.html">OM OSS</a>
+				<a href="/subpages/hjälp.html">KONTAKT</a>
+				<a href="/subpages/villkor.html">VILLKOR</a>
+			</div>
+		</div>
+	</div>
 	<div class="cta-phone">
 		<p class="text">FRI FRAKT PÅ BESTÄLLNINGAR ÖVER 1000:-</p>
 	</div>
