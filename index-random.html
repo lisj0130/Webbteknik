@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Pigga Peggy - Random</title>
+	<meta name="keywords" content="skor, färgglada skor, udda skor, komfortabla skor, skobutik, skor online">
+	<meta name="description" content="Utforska vårt sortiment av färgglada och udda skor med fokus på komfort">
+	<meta name="DC.title" content="Pigga Peggy">
+	<meta name="viewport" content="width=828px, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/main.css">
+	<script src="https://kit.fontawesome.com/e1a3da5fea.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script src="/assets/js/randomizer.js"></script>
+    </head>
+    <body>
+	<div id="cta">
+		<p class="text">FRI FRAKT PÅ BESTÄLLNINGAR ÖVER 1000:-</p>
+	</div>
+	<nav class="computer-nav">
+		<div id="search-bar">
+			<input type="text" placeholder="SÖK..." class="search" id="onfocus-onblur" onfocus="highlightInput(true)" onblur="highlightInput(false)">
+			<button type="submit" class="search-button" onclick="clearInput()">
+				<i class="fa-solid fa-magnifying-glass"></i>
+			</button>
+		</div>
+		<a href="/index-random.html" class="logo">
+			<img src="./assets/images/logo.png" alt="logo" class="logo-img">
+		</a>
+		<div class="logos">
+			<i class="far fa-envelope" id="mail-icon"></i>
+			<i class="far fa-heart id" id="heart-icon"></i>
+			<i class="fas fa-shopping-cart" id="cart-icon"></i>
+		</div>
+		<ul class="menu">
+			<li id="li1">
+				<h6 onmouseover="changeAppearance()">HEM</h6>
+			</li>
+			<li id="li2">
+				<h6>SKOR</h6>
+			</li>
+			<li id="li3">
+				<h6>ACCESSOARER</h6>
+			</li>
+			<li id="li4">
+				<h6>OM OSS</h6>
+			</li>
+			<li id="li5">
+				<h6 >KONTAKT</h6>
+			</li>
+			<li id="li6">
+				<h6>VILLKOR</h6>
+			</li>
+		</ul>
+	</nav>
+	<ul id="drop-down-menu">
+		<div class="cat-1">
+			<h3>HUVUDKATEGORI</h3>
+			<a href="/subpages/skor.html">SKOR</a>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+		</div>
+		<div class="cat-2">
+			<h3>HUVUDKATEGORI</h3>
+			<a href="/subpages/accessoarer.html">ACCESSOARER</a>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+		</div>
+		<div class="cat-3">
+			<h3>HUVUDKATEGORI</h3>
+			<a href="/subpages/omoss.html">OM OSS</a>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+		</div>
+		<div class="cat-4">
+			<h3>HUVUDKATEGORI</h3>
+			<a href="/subpages/hjälp.html">KONTAKT</a>
+			<p>Underkategori</p>
+			<p>Underkategori</p>
+			<a href="/subpages/villkor.html">VILLKOR</a>
+		</div>
+	</ul>
+	<nav class="phone-nav">
+		<i class="fa-solid fa-bars" id="hamburger"></i>
+		<i class="fa-solid fa-cart-shopping" id="cart"></i>
+		<a href="/index.html" id="phone-logo"><img src="assets/images/logo.png" alt=""></a>
+		<input type="text" placeholder="SÖK..." id="phone-search">
+		<button type="submit" id="search-logo">
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</button>
+	</nav>
+	<div class="hamburger-menu">
+		<i class="fa-solid fa-xmark" id="close"></i>
+		<div id="category-container">
+			<div class="category-1">
+				<a href="/index-random.html">HEM</a>
+				<a href="/subpages/skor.html">SKOR</a>
+				<a href="/subpages/accessoarer.html">ACCESSOARER</a>
+			</div>
+			<div class="category-2">
+				<a href="/subpages/omoss.html">OM OSS</a>
+				<a href="/subpages/hjälp.html">KONTAKT</a>
+				<a href="/subpages/villkor.html">VILLKOR</a>
+			</div>
+		</div>
+	</div>
+	<div class="cta-phone">
+		<p class="text">FRI FRAKT PÅ BESTÄLLNINGAR ÖVER 1000:-</p>
+	</div>
+	<header class="main-computer-header" id="change-header">
+		<h1 class="serif">NYHETER 2024</h1>
+		<button type="button" class="button">KÖP HÄR</button>
+	</header>
+	<main class="computer-main">
+		<h2 class="serif pdf-none">KATEGORIER</h2>
+		<div class="center">
+			<div class="carousel-container">
+				<div class="carousel-con">
+				  <div class="carousel-item">
+					<img src="/assets/images/skor/sko12.jpg" class="img-slider">
+					<button type="submit">SNÖRSKOR</button>
+				  </div>
+				  <div class="carousel-item">
+					<img src="/assets/images/väska/väska1.jpg" alt="" class="img-slider">
+					<button type="submit">SNÖRSKOR</button>
+				</div>
+				  <div class="carousel-item">
+					<img src="/assets/images/skor/sko7.jpg" alt="" class="img-slider">
+					<button type="submit">SNÖRSKOR</button>
+				</div>
+				  <div class="carousel-item">
+					<img src="/assets/images/smycken/smycke5.jpg" alt="" class="img-slider">
+					<button type="submit">SNÖRSKOR</button>
+				</div>
+				  <div class="carousel-item">
+					<img src="/assets/images/skor/sko9.jpg" alt="" class="img-slider">
+					<button type="submit">SNÖRSKOR</button>
+				</div>
+				  <div class="carousel-item">
+					<img src="/assets/images/väska/väska6.jpg" alt="" class="img-slider">
+					<button type="submit">SNÖRSKOR</button>
+				</div>
+				  <div class="carousel-item">
+					<img src="/assets/images/smycken/smycke2.jpg" alt="" class="img-slider">
+					<button type="submit">SNÖRSKOR</button>
+				</div>
+				  <div class="carousel-item">
+					<img src="/assets/images/skor/sko2.jpg" alt="" class="img-slider">
+					<button type="submit">SNÖRSKOR</button>
+				</div>
+				</div>
+				<button class="prev-btn slide">
+					<i class="fa-solid fa-arrow-left"></i>
+				</button>
+				<button class="next-btn slide">
+					<i class="fa-solid fa-arrow-right"></i>
+				</button>
+			</div>
+		 </div>
+		<button type="button" class="button" id="phone-button">VISA FLER</button>
+		<h2 class="serif padding-pdf" id="computer-title">PIGGA PEGGYS FAVORITER</h2>
+		<div class="table computer-table">
+			<table>
+				<tr>
+					<td>
+						<img src="/assets/images/skor/sko1.jpg" alt="">
+						<h4>KLACKAR</h4>
+						<h6>Ten Points</h6>
+					</td>
+					<td>
+						<img src="/assets/images/smycken/smycke1.jpg" alt="">
+						<h4>HALSBAND</h4>
+						<h6>Okänt</h6>
+					</td>
+					<td>
+						<img src="/assets/images/väska/väska1.jpg" alt="">
+						<h4>SADELVÄSKA</h4>
+						<h6>ROKA</h6>
+					</td>
+					<td>
+						<img src="/assets/images/skor/sko2.jpg" alt="">
+						<h4>FINSKOR</h4>
+						<h6>Andrea Conti</h6>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="/assets/images/väska/väska2.jpg" alt="">
+						<h4>VÄSKA</h4>
+						<h6>Vera Pelle</h6>
+					</td>
+					<td>
+						<img src="/assets/images/skor/sko3.jpg" alt="">
+						<h4>SNÖRSKO</h4>
+						<h6>Green Comfort</h6>
+					</td>
+					<td>
+						<img src="/assets/images/smycken/smycke2.jpg" alt="">
+						<h4>ÖRHÄNGEN</h4>
+						<h6>Okänt</h6>
+					</td>
+					<td>
+						<img src="/assets/images/väska/väska3.jpg" alt="">
+						<h4>VÄSKA</h4>
+						<h6>Vera Pelle</h6>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="/assets/images/skor/sko4.jpg" alt="">
+						<h4>KLACKAR</h4>
+						<h6>Ella H</h6>
+					</td>
+					<td>
+						<img src="/assets/images/väska/väska4.jpg" alt="">
+						<h4>SKINNVÄSKA</h4>
+						<h6>Vera Pelle</h6>
+					</td>
+					<td>
+						<img src="/assets/images/skor/sko5.jpg" alt="">
+						<h4>SANDALER</h4>
+						<h6>Birkenstock</h6>
+					</td>
+					<td>
+						<img src="/assets/images/smycken/smycke3.jpg" alt="">
+						<h4>HALSBAND</h4>
+						<h6>Okänt</h6>
+					</td>
+				</tr>
+			</table>
+			<button type="button" class="button">VISA FLER</button>
+		</div>
+		<div class="information">
+			<img src="/assets/images/person.jpg" alt="bild" id="bild1" class="proportions">
+
+			<div class="text-box proportions" id="text1">
+				<p>Jag som driver Pigga Peggy heter Annika Wilander och är 54 år gammal. Innan jag öppnade upp butiken jobbade jag som tandtekniker.
+					Syftet med uppstarten av butiken var att jag alltid tyckt om udda skor med bekvämlighet, men däremot alltid känt avsaknad av just detta utbud i Sverige.
+					2014 startade jag Pigga Peggy AB och kan sedan dess erbjuda fotvänliga, 
+					bekväma och högt kvalitativa skor, som samtidigt är vackra och färgglada.</p>
+			</div>
+
+			<div class="text-box proportions" id="text2">
+				<p>Min vision med Pigga Peggys utbud är att det ska finnas bra skor som funkar för alla typer av fotproblem, men att skorna ändå är
+					fina med ett utbud för alla typer av smaker. Utöver detta är jag väldigt noga med att all produktion ska vara inom EU och därefter följa EUs regelrätt.
+					Jag försöker även välja märken som satsar på hållbarhet och produktion av giftfritt återvunnet
+					gummi samt vegetabiliskt garvat skinn utan krom. </p>
+			</div>
+
+			<img src="/assets/images/läder.jpg" alt="bild" id="bild2" class="proportions">
+		</div>
+	</main>
+	<footer class="computer-footer">
+		<div class="menu-footer">
+			<div id="phone-social-media">
+				<a href="https://www.instagram.com/piggapeggyskor/?next=%2Fshoppies00%2F&hl=sv#" target="_blank">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+				<a href="https://www.facebook.com/piggapeggyskor" target="_blank">
+					<i class="fa-brands fa-facebook-f"></i>
+				</a>
+			</div>
+			<div class="store-info">
+				<h4>BUTIKSINFORMATION</h4>
+				<a href="/subpages/hjälp.html" class="pdf-none">HJÄLP & KONTAKT</a>
+	
+				<p class="margin-top">Bankgatan 2</p>
+				<p>223 52 Lund</p>
+				<p class="margin-bottom">Sverige</p>
+	
+				<p>Måndag - Torsdag 11-17</p>
+				<p>Fredag 11-15</p>
+			</div>
+			<div class="help">
+				<h4>KUNDTJÄNST</h4>
+				<div class="links pdf-none">
+					<a href="subpages/hjälp.html">HJÄLP & KONTAKT</a>
+					<a href="subpages/villkor.html">VILLKOR</a>
+				</div>
+				
+				<p class="only-pdf margin-top margin-bottom">annika@piggapeggy.com</p>
+				<p class="margin-top margin-bottom">073 - 303 49 50</p>
+				<div id="social-media" class="pdf-none">
+					<a href="https://www.instagram.com/piggapeggyskor/?next=%2Fshoppies00%2F&hl=sv#" target="_blank">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+					<a href="https://www.facebook.com/piggapeggyskor" target="_blank">
+						<i class="fa-brands fa-facebook-f"></i>
+					</a>
+				</div>
+			</div>
+			<p class="copyright">© Pigga Peggy, 2024</p>
+		</div>
+		<div class="pay-logos">
+			<img src="assets/images/dhlsvg.svg" alt="">
+			<img src="assets/images/postnord.webp" alt="">
+			<img src="assets/images/klarna.svg" alt="">
+			<img src="assets/images/swish.svg" alt="">
+			<img src="assets/images/visa.png" alt="">
+
+		</div>
+	</footer>
+    </body>
+</html>
