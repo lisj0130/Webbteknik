@@ -188,6 +188,14 @@ a {
 	font-weight: 550 !important;
 }
 
+.menu h6 {
+	  text-decoration: none;
+	  color: black;
+	  font-weight: 550;
+	  cursor: pointer;
+	  font-size: 3vh;
+}
+
 /*Footer*/
 
 .menu-footer {
